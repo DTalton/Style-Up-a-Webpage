@@ -1,0 +1,118 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Body styling */
+.body-class {
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+.header-class {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation bar */
+.nav-class {
+    background-color: #34495e;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-link-class {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: normal;
+}
+
+.nav-link-class.active {
+    font-weight: bold;
+}
+
+/* Titles */
+.title-class, .section-title-class {
+    color: #1abc9c;
+}
+
+/* Text styles */
+.text-class {
+    color: #333;
+}
+
+/* Image styling */
+.image-class {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 10px auto;
+    border: 5px solid #1abc9c;
+    border-radius: 10px;
+}
+
+/* Form styling */
+.form-class {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-class {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-class {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+}
+
+.button-class:hover {
+    background-color: #16a085;
+}
+
+/* Footer styling */
+.footer-class {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .image-class {
+        width: 90%;
+    }
+
+    .nav-class {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link-class {
+        display: block;
+        padding: 5px 0;
+    }
+}
